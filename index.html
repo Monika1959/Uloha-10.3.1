@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Záľuby</title>
+
+    <style>
+        .jumbotron{
+            background-color: orangered;
+            color: aliceblue;
+        }
+        .obr2{
+            
+            width: 550px;
+            height: 300px;
+        }
+        .obr3{
+            float: left;
+            width: 550px;
+            height: 300px;
+        }
+        .bg-1{
+            background-color: bisque;
+        }
+        .bg-2{
+            background-color: rgb(246, 212, 171);
+        }
+        .bg-3{
+            background-color: bisque;
+        }
+        .container-fluid{
+            padding: 20px;
+        }
+        .btn{
+            width: 150px;
+            height: 50px;
+            border: solid 1px black;
+            border-radius: 5px;
+            background-color: rgb(252, 127, 78);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar" style="background-color: rgb(247, 145, 108);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="https://cdn-icons-png.flaticon.com/512/6009/6009323.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+            Záľuby
+            </a>
+            <a class="nav-link active" aria-current="page" href="#">Domov</a>
+            <a class="nav-link" href="#">Aktívne</a>
+            <a class="nav-link" href="#">Pasívne</a>
+            <a class="nav-link" href="#">Iné</a>
+
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Hľadať" aria-label="Hľadať">
+                <button class="btn btn-outline-success" type="submit">Hľadať</button>
+            </form>
+        </div>
+      </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Toto sú moje koníčky:</h1>
+        <p>Táto kapitola sa delí na činnosti aktívne, pasívne a iné.</p>
+    </div> 
+
+    <div class="container-fluid bg-1">
+        <h3>1. aktívne:</h3>
+        <dl class="row text-center"> 
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">bicyklovanie</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Cyklistika je jazda na bicykli s rekreačným, športovým, turistickým alebo dopravným zameraním. Osoby, ktoré jazdia na bicykli sú cyklisti. Cyklistika vznikla po skonštruovaní bicykla v 19. storočí. Dnes je na Zemi asi miliarda bicyklov, ktoré sú ekologickým a v niektorých oblastiach dôležitým druhom dopravy.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">bedminton</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Bedminton (do 70. rokov 20. stor. sa používali aj názvy: badminton, nevhodne badmington; angl. badminton) je športová hra pre dvoch alebo štyroch hráčov, ktorí sa pohybujú na opačných poloviciach obdĺžnikového ihriska rozdeleného sieťou. Hráči v rukách držia rakety a striedavo odbíjajú košík.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-sm">korčuľovanie (in-line)</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Korčuľovanie je činnosť, počas ktorej dochádza k pohybu po hladkom povrchu pomocou špeciálnych pomôcok zvaných korčule. Medzi najznámejšie spôsoby korčuľovania patrí korčuľovanie na ľade a inline korčuľovanie na špeciálnom pevnom povrchu ako je asfalt alebo umelý povrch. Základným princípom korčuľovania je prenášanie váhy tela z jednej nohy na druhú, čím sa uvádza telo do pohybu.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">tanec</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Tanec sú opakované rytmické pohyby, konané jednou alebo viacerými osobami za sprievodu hudby, prípadne i spevu.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">turistika</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Turistika alebo turizmus je hobby spočívajúce v putovaní a spoznávaní krajín, pamiatok, zvykov a ľudí, často s rekreačným zámerom.
+                    Aktívne cestovanie, pohyb a pobyt v prírode s rekreačným zámerom. Samotné vyvezenie sa lanovkou bez pohybu sa za turistiku nepovažuje.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-sm">lyžovanie (zjazdové / alpské)</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Lyžovanie je zimný šport, ktorý spočíva v pohybe človeka vlastnou silou a zemskou tiažou po snehu na lyžiach, čo je pár dlhých úzkych dosiek, pôvodne drevených, dnes z kompozitných materiálov, pripojených k chodidlám pomocou lyžiarskeho viazania</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">skialpinizmus</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Skialpinizmus je zimný šport, ktorý je kombináciou voľného lyžovania, lezeckých schopností a navigácie. Skialpinizmus, či už pretekársky alebo rekreačný, si vyžaduje dobrú fyzickú kondíciu a základný skialpinistický výstroj.</dd>
+                <dt class="col-sm-2"><a href="#" class="btn btn-default btn-lg">bežkovanie</a></dt>
+                    <dd class="col-sm-4 blockquote-footer">Bežecké lyžovanie alebo beh na lyžiach alebo hovorovo bežkovanie je vytrvalostný druh lyžovania za pomoci bežeckých lyží. Zimný olympijský šport.</dd>
+        
+            <div class="col-sm-12">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/002/933/small/sports-time-poster-with-blue-athlete-silhouettes-free-vector.jpg"  class="rounded-circle" alt="sports">
+            </div>
+        </dl>
+    </div>
+
+    <div class="container-fluid bg-2">
+        <h3>2. pasívne:</h3>
+        <dl class="row text-center">
+            <dt class="col-sm-2"><a href="#" class="btn btn-default btn-sm">pozrenaie filmov a seriálov</a></dt>
+            <dt class="col-sm-2"><a href="#" class="btn btn-default btn-md">počúvanie hudby</a></dt>
+            <dt class="col-sm-2"><a href="#" class="btn btn-default btn-sm" style="height: 75px;">dohľadávanie zaujímavostí na webe</a></dt>
+
+            <div class="col-sm-4">
+                <img src="https://www.itnewsafrica.com/wp-content/uploads/2021/09/Relaxing-Garden.jpeg" class="rounded-pill obr2" alt="relaxing">
+            </div>
+        </dl>
+    </div>
+
+    <div class="container-fluid bg-3">
+        <h3>3. iné:</h3>
+        <dl class="row text-center">
+            <div class="col-sm-4">
+                <img src="https://www.roadaffair.com/wp-content/uploads/2017/10/freedom-world-shutterstock_413831764-1024x683.jpg" class="rounded obr3" alt="traveling">
+            </div>
+
+            <dt class="col-sm-8"><a href="#" class="btn btn-default btn-lg">cestovanie</a></dt>
+        </dl>
+    </div>
+
+</body>
+</html>
